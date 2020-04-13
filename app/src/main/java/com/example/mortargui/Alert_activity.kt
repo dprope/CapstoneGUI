@@ -11,5 +11,7 @@ class Alert_activity: AppCompatActivity() {
         setContentView(R.layout.alert_screen)
 
 
+
+
     }
 }

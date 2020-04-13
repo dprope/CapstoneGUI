@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.sign_in.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,10 +17,14 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+
         gotosigning.setOnClickListener {
             startActivity(Intent(this, Singin_activity::class.java))
 
+
+
         }
+
 
     }
 }
