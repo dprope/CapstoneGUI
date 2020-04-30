@@ -4,74 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B6B6B6">
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="203dp"
-        android:layout_height="61dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginLeft="104dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="104dp"
-        android:layout_marginRight="104dp"
-        android:layout_marginBottom="654dp"
-        android:text="High Security Alert!"
-        android:textColor="#FF0516"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="192dp"
-        android:layout_height="196dp"
-        android:layout_marginStart="109dp"
-        android:layout_marginLeft="109dp"
-        android:layout_marginTop="99dp"
-        android:layout_marginEnd="110dp"
-        android:layout_marginRight="110dp"
-        android:layout_marginBottom="436dp"
-        android:background="#FB0318"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/stat_sys_warning" />
-
-    <TextView
-        android:layout_width="241dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="307dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:layout_marginBottom="390dp"
-        android:text="Image Taken: 4/1/20 : 4:20pm"
-        android:textColor="#050000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:background="#F8F6F6">
 
     <Button
         android:id="@+id/button2"
         android:layout_width="106dp"
         android:layout_height="106dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="438dp"
-        android:layout_marginEnd="235dp"
-        android:layout_marginRight="235dp"
-        android:layout_marginBottom="187dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginRight="228dp"
+        android:layout_marginBottom="125dp"
+        android:background="#F44336"
         android:text="THREAT"
-        android:textColor="#FD0404"
+        android:textColor="#FBF9F9"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,10 +32,10 @@
         android:layout_height="106dp"
         android:layout_marginStart="243dp"
         android:layout_marginLeft="243dp"
-        android:layout_marginTop="438dp"
+        android:layout_marginTop="500dp"
         android:layout_marginEnd="62dp"
         android:layout_marginRight="62dp"
-        android:layout_marginBottom="187dp"
+        android:layout_marginBottom="125dp"
         android:text="NO THREAT DETECTED"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,5 +60,42 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="456dp"
+        android:layout_height="764dp"
+        android:background="#FC9D29B1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515"
+        app:srcCompat="@drawable/backgroundpicture" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="643dp"
+        android:background="#00FF0505"
+        android:text="High Threat Alert"
+        android:textColor="#090909"
+        android:textColorHighlight="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

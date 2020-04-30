@@ -12,7 +12,7 @@ class Singin_activity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.sign_in)
 
-        goToResponseContact.setOnClickListener { startActivity(Intent(this, Alert_activity:: class.java)) }
+        goToResponseContact.setOnClickListener { startActivity(Intent(this, Sample_Activity:: class.java)) }
 
 
 

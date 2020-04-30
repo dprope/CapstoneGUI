@@ -4,8 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
+import com.androidnetworking.AndroidNetworking
+import com.androidnetworking.common.Priority
+import com.androidnetworking.error.ANError
+import com.androidnetworking.interfaces.JSONArrayRequestListener
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.sign_in.*
+import org.json.JSONArray
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +29,10 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+        AndroidNetworking.initialize(applicationContext)
+
+
+
 
 
     }
